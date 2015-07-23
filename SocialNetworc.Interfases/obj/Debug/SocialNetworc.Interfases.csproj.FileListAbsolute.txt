@@ -1,0 +1,7 @@
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\bin\Debug\SocialNetworc.Interfases.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\bin\Debug\SocialNetworc.Interfases.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\bin\Debug\SocialNetwork.Core.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\bin\Debug\SocialNetwork.Core.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\obj\Debug\SocialNetworc.Interfases.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\obj\Debug\SocialNetworc.Interfases.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetworc.Interfases\obj\Debug\SocialNetworc.Interfases.pdb

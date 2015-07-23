@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Data", "SocialNetwork.Data\SocialNetwork.Data.csproj", "{04B68B88-2975-42E1-8D2A-521C69BAAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Core", "SocialNetwork.Core\SocialNetwork.Core.csproj", "{2A2A9FC2-7E8D-4A8C-BEDF-8430D9F7B5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Interfases", "SocialNetworc.Interfases\SocialNetwork.Interfases.csproj", "{3F8BE1D7-184B-4812-81B0-0183FBDDB9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.BisinesLogic", "SocialNetwork.BisinesLogic\SocialNetwork.BisinesLogic.csproj", "{BC5E892B-B5E5-4840-95BE-787E757A177A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.WEB", "SocialNetwork.WEB\SocialNetwork.WEB.csproj", "{BC0F6328-A0A2-4F1B-9432-784A018398AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworc.CastleWindsor", "SocialNetworc.CastleWindsor\SocialNetworc.CastleWindsor.csproj", "{FA51A90E-369F-423C-BBC9-60F56098727B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.PasswordHashing", "SocialNetwork.PasswordHashing\SocialNetwork.PasswordHashing.csproj", "{F18B72B1-F20D-41A6-A9A8-FF3C02272E69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B68B88-2975-42E1-8D2A-521C69BAAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B68B88-2975-42E1-8D2A-521C69BAAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B68B88-2975-42E1-8D2A-521C69BAAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B68B88-2975-42E1-8D2A-521C69BAAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2A9FC2-7E8D-4A8C-BEDF-8430D9F7B5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2A9FC2-7E8D-4A8C-BEDF-8430D9F7B5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2A9FC2-7E8D-4A8C-BEDF-8430D9F7B5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2A9FC2-7E8D-4A8C-BEDF-8430D9F7B5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8BE1D7-184B-4812-81B0-0183FBDDB9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8BE1D7-184B-4812-81B0-0183FBDDB9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8BE1D7-184B-4812-81B0-0183FBDDB9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8BE1D7-184B-4812-81B0-0183FBDDB9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5E892B-B5E5-4840-95BE-787E757A177A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5E892B-B5E5-4840-95BE-787E757A177A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5E892B-B5E5-4840-95BE-787E757A177A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5E892B-B5E5-4840-95BE-787E757A177A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0F6328-A0A2-4F1B-9432-784A018398AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0F6328-A0A2-4F1B-9432-784A018398AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0F6328-A0A2-4F1B-9432-784A018398AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0F6328-A0A2-4F1B-9432-784A018398AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA51A90E-369F-423C-BBC9-60F56098727B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA51A90E-369F-423C-BBC9-60F56098727B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA51A90E-369F-423C-BBC9-60F56098727B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA51A90E-369F-423C-BBC9-60F56098727B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18B72B1-F20D-41A6-A9A8-FF3C02272E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18B72B1-F20D-41A6-A9A8-FF3C02272E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18B72B1-F20D-41A6-A9A8-FF3C02272E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18B72B1-F20D-41A6-A9A8-FF3C02272E69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

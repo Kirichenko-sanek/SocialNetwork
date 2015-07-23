@@ -1,0 +1,27 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model SocialNetwork.WEB.ViewModels.PageNewsViewModel
+@{
+    ViewBag.Title = Resource.News;
+
+}
+<section id="intro">
+    <div id="intro-slider" class="flexslider">
+        <li>
+            <div class="row">
+                <div class="col full">
+                    <div class="slider-text">
+                        <h2>@Resource.News</h2>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </div>
+</section>
+<section id="portfolio">
+    <div class="row">
+        <div id="portfolio-wrapper">
+            @Html.Partial("Posts", Model.Posts)
+        </div>
+    </div>
+</section>

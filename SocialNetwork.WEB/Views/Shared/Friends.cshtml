@@ -1,0 +1,13 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model List<SocialNetwork.WEB.ViewModels.FriendViewModel>
+@foreach (var friend in Model)
+{
+    <div class="client-author">
+        <img src="@Url.Content(friend.Photo)"/>
+        <div class="name">
+            <h2>
+                @Html.ActionLink(@friend.Name, "MyPage", "Profile", new {id = friend.Id},null)
+            </h2>
+        </div>
+    </div>
+}

@@ -1,0 +1,52 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model SocialNetwork.WEB.ViewModels.AddPostViewModel
+
+@{
+    ViewBag.Title = Resource.AddPost;
+}
+
+
+<section id="intro">
+    <div id="intro-slider" class="flexslider">
+        <li>
+            <div class="row">
+                <div class="col full">
+                    <div class="slider-text">
+                        <h2>@Resource.AddPost</h2>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </div>
+</section>  
+@using (Html.BeginForm("AddPost", "Profile", null, FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    <section id ="contact">
+        <div class="row">
+            <div class="col g-9">
+                <div>
+                    <h3>@Html.LabelFor(model => model.Description,Resource.Description, htmlAttributes: new {@class = "control-label col-md-2"})</h3>
+                    @Html.EditorFor(model => model.Description, new {htmlAttributes = new {@class = "form-control"}})
+                    @Html.ValidationMessageFor(model => model.Description, "", new {@class = "text-danger"})
+                    <hr/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col g-9">
+
+                <h3>@Html.Label(Resource.Photo, new {@class = "control-label col-md-2"})</h3>
+                <input type="file" id="Photo" name="upload" lang="en-US"/>
+                <hr/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col g-12">
+                <input type="submit" value=@Resource.AddPost class="btn btn-default" />
+            </div>
+        </div>  
+    </section>
+}
+

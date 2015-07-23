@@ -1,0 +1,101 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model SocialNetwork.WEB.ViewModels.RegisterViewModel
+
+@{
+    ViewBag.Title = Resource.Registration;
+}
+ <section id="intro">
+    <div id="intro-slider" class="flexslider">
+        <li>
+            <div class="row">
+                <div class="col full">
+                    <div class="slider-text">
+                        <h2>@Resource.Registration</h2>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </div>
+</section>        
+@using (Html.BeginForm("Registration", "Account", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <section id="contact">
+        @Html.ValidationSummary(true, "", new { @id = "text-danger" })
+        <div class="row">
+            <div class="col g-9">
+                <div>
+                    <h3>@Html.LabelFor(model => model.FirstName, Resource.FirstName, htmlAttributes: new {@class = "control-label col-md-2"})</h3>              
+                    @Html.EditorFor(model => model.FirstName, new {htmlAttributes = new {@id = "form input"}})               
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "control-label" })
+                    <hr/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col g-9">
+                <div>
+                    <h3>@Html.LabelFor(model => model.LastName, Resource.LastName, htmlAttributes: new {@class = "control-label col-md-2"})</h3>
+                    @Html.EditorFor(model => model.LastName, new {htmlAttributes = new {@class = "form input"}})
+                    @Html.ValidationMessageFor(model => model.LastName, "", new {@class = "control-label text-danger"})
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col g-9">
+                <div>
+                    <h3>@Html.LabelFor(model => model.Email, Resource.Email, htmlAttributes: new {@class = "control-label col-md-2"})</h3>
+                    @Html.EditorFor(model => model.Email, new {htmlAttributes = new {@class = "form input"}})
+                    
+                    @Html.ValidationMessageFor(model => model.Email, "", new {@class = "control-label text-danger"})
+                    @Html.DisplayTextFor(model => model.Error)
+                    <hr />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col g-9">
+                
+                <h3>@Html.LabelFor(model => model.Password, Resource.Password, htmlAttributes: new {@class = "control-label col-md-2"})</h3>               
+                @Html.EditorFor(model => model.Password, new {htmlAttributes = new {@class = "form input"}})                
+                @Html.ValidationMessageFor(model => model.Password, "", new {@class = "control-label text-danger"})
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col g-9">
+                
+                    <h3>@Html.LabelFor(model => model.ConfirmPassword, Resource.ConfirmPassword, htmlAttributes: new {@class = "control-label col-md-2"})</h3>        
+                    @Html.EditorFor(model => model.ConfirmPassword, new {htmlAttributes = new {@class = "form input"}})               
+                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new {@class = "control-label text-danger"})
+                <hr />
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col g-9">
+
+                <h3>@Html.Label(Resource.Photo, new {@class = "control-label col-md-2"})</h3>
+                <input type="file" id="Photo" name="upload" lang="en-US"/>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col g-12">
+                <input type="submit" value=@Resource.Register class="btn btn-default" />
+            </div>
+        </div>        
+    </section>      
+}                                              
+        
+    
+    
+    
+    

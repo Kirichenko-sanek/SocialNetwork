@@ -1,0 +1,25 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model SocialNetwork.WEB.ViewModels.PageFriendViewModel
+
+@{
+    ViewBag.Title = Resource.Friends;
+}
+<section id="intro">
+    <div id="intro-slider" class="flexslider">
+        <li>
+            <div class="row">
+                <div class="col full">
+                    <div class="slider-text">
+                        <h2>@Resource.Friends</h2>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </div>
+</section>
+<section id="about">
+    <div class="row testimonials">
+        @Html.Partial("Friends", Model.Friend)
+    </div>
+</section>

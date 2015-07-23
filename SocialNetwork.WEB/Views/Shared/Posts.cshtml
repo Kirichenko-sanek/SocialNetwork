@@ -1,0 +1,42 @@
+﻿@using SocialNetwork.WEB.App_GlobalResources
+@model List<SocialNetwork.WEB.ViewModels.PostViewModel>
+@foreach (var post in Model)
+{
+
+    <div class="col portfolio-item">
+        <div class="item-wrap">
+            <a href="#" data-reveal-id="@post.Id"><img src="@Url.Content(post.PhotoPost)" alt=""/></a>
+            <div class="portfolio-item-meta">
+                <h6>
+                    <a href="#" data-reveal-id="@post.Id">
+                        @post.NameUser
+                        @post.DatePost                    
+                    </a>
+                </h6>
+            </div>
+        </div>
+    </div>
+ 
+}
+@foreach (var post in Model)
+{
+    
+    <div id="@post.Id" class="reveal-modal">
+
+        <img class="scale-with-grid" src="@Url.Content(post.PhotoPost)" alt="" />
+
+        <div class="description-box">
+            <h4>@post.DescriptionPost</h4>
+            <p>@post.DatePost</p>
+        </div>
+
+        <div class="link-box">
+            <a class="close-reveal-modal">@Resource.Close</a>
+            &emsp;&emsp;
+            @Html.ActionLink(Resource.Delete, "DeletePost", "Profile", new { numPost = post.Id }, null)
+            &emsp;&emsp;
+            @Html.ActionLink(Resource.Edit, "EditPost", "Profile", new { numPost = post.Id }, null)
+        </div>
+    </div>
+
+}

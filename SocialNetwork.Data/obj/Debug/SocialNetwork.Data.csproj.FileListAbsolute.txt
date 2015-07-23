@@ -1,0 +1,16 @@
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Data.dll.config
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Data.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Data.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\EntityFramework.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Core.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Interfases.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.PasswordHashing.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Interfases.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.Core.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\SocialNetwork.PasswordHashing.pdb
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\EntityFramework.xml
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\obj\Debug\SocialNetwork.Data.csprojResolveAssemblyReference.cache
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\obj\Debug\SocialNetwork.Data.dll
+C:\Users\Александр\Documents\Visual Studio 2013\Projects\SocialNetwork\SocialNetwork.Data\obj\Debug\SocialNetwork.Data.pdb
